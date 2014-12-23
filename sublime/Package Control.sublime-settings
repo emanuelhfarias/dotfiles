@@ -1,0 +1,10 @@
+{
+	"installed_packages":
+	[
+		"ChangeQuotes",
+		"CodeFormatter",
+		"GitGutter",
+		"Package Control",
+		"SCSS"
+	]
+}
