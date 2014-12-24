@@ -1,5 +1,6 @@
 dotfiles
 ========
+Some dotfiles.
 
 ## Installing
 ```sh
