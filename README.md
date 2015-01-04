@@ -13,9 +13,10 @@ Since Debian don't bring the package, run:
 ```sh
 sudo ./SetupSublime2Debian.sh
 ```
+It will download and install the last Sublime Text 2 and generate a gnome3 launcher.
 On Mac this is not necessary, just download the .dmg file (in the main website) and install.
 
-### Setup Sublime configs and plugins 
+### Setup Sublime configs and plugins
 ```sh
 ruby go.rb
 ```
