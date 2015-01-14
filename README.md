@@ -25,3 +25,16 @@ It will automatic install Sublime plugins and set configs. Reload Sublime to tak
 ```sh
 sudo ./UninstallSublime2Debian.sh
 ```
+
+## Vagrant Ruby Provisioning
+This vagrant shell is provisioning:
+
+rbenv + ruby-build + ruby 2.2.0 + bundler + Rails (last version)
+
+Add to Vagrantfile.
+```sh
+Vagrant.configure("2") do |config|
+  config.vm.provision "shell", path: "vagrant-provisioning.sh"
+end
+```
+The script must be in the same directory as Vagrantfile.
