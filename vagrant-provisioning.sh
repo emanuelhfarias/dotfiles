@@ -6,7 +6,7 @@
 # PS: The box must be Debian/Ubuntu based
 # See more on RailsCast #292
 
-sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev git &&
+sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev git libsqlite3-dev &&
 
 # installing rbenv
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv &&
