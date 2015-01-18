@@ -11,12 +11,14 @@ cd ~/.dotfiles
 ## Vagrant Ruby Provisioning
 This vagrant shell is provisioning:
 
-rbenv + ruby-build + ruby 2.2.0 + bundler + Rails (last version)
+rbenv + ruby-build + ruby 2.2.0 + bundler
 
-Add to Vagrantfile.
+Vagrantfile:
 ```sh
-Vagrant.configure("2") do |config|
-  config.vm.provision "shell", path: "vagrant-provisioning.sh"
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "hashicorp/precise32"
+  config.vm.network "forwarded_port", guest: 3000, host: 3000 #WEBrick
+  config.vm.provision "shell", path: "vagrant-provisioning.sh", privileged: false
 end
 ```
 The script must be in the same directory as Vagrantfile.
