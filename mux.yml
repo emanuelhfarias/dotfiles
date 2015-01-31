@@ -1,0 +1,8 @@
+windows:
+  - editor:
+      layout: 0c70,204x44,0,0[204x22,0,0{102x22,0,0,0,101x22,103,0,4},204x21,0,23{102x21,0,23,2,101x21,103,23,3}]
+      panes:
+        - rails s -b 0.0.0.0
+        - mailcatcher --http-ip=0.0.0.0
+        - rails c
+        - #empty
