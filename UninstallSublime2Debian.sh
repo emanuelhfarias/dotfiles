@@ -9,7 +9,7 @@ fi
 rm -rf /opt/sublime-text-2 &&
 echo "Removed /opt/sublime-text-2 directory."
 
-rm /usr/local/sublime-text-2 &&
+rm -rf /usr/local/sublime-text-2 &&
 echo "Removed /usr/local/sublime-text-2 directory."
 
 rm /usr/local/bin/sublime_text &&
