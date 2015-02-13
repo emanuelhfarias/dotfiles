@@ -46,6 +46,17 @@ gem install bundler &&
 rbenv rehash &&
 echo "bundler - OK"
 
+# tmux from Ubuntu Trusty repository
+echo "installing tmux ..."
+sudo apt-get install -y tmux &&
+sudo ed -s /etc/apt/sources.list < <(printf '%s\n' 1i "deb-src http://us.archive.ubuntu.com/ubuntu/ trusty main restricted" . wq) &&
+sudo ed -s /etc/apt/sources.list < <(printf '%s\n' 1i "deb http://us.archive.ubuntu.com/ubuntu/ trusty main restricted" . wq) &&
+sudo apt-get update &&
+sudo apt-get install --only-upgrade tmux && # upgrade tmux
+sudo sh -c 'sed -e "1,2d" < /etc/apt/sources.list' && # remove trusty repo
+sudo apt-get update &&
+echo "tmux - OK"
+
 #echo "installing rails last version ..."
 #gem install rails &&
 #rbenv rehash
