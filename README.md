@@ -11,7 +11,7 @@ cd ~/.dotfiles
 ## Vagrant Ruby Provisioning
 This vagrant shell is provisioning:
 
-rbenv + ruby-build + ruby 2.2.0 + bundler
+rbenv + ruby-build + ruby 2.2.0 + bundler + tmux
 
 Vagrantfile:
 ```sh

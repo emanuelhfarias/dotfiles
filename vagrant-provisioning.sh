@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This vagrant shell is provisioning:
-# rbenv + ruby-build + ruby 2.2.0 + bundler
+# rbenv + ruby-build + ruby 2.2.0 + bundler + tmux
 
 # PS1: The box must be Debian/Ubuntu based.
 # PS2: This script is running as normal user (with sudo), NOT root. (privileged: false on Vagrantfile)
