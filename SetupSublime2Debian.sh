@@ -20,7 +20,7 @@ fi
 tar -xvjf "$sublime" &&
 mv "Sublime Text 2/" /opt/sublime-text-2/ &&
 ln -s /opt/sublime-text-2 /usr/local/sublime-text-2 &&
-ln -s /usr/local/sublime-text-2/sublime_text /usr/local/bin/sublime_text &&
+ln -s /usr/local/sublime-text-2/sublime_text /usr/local/bin/sublime &&
 
 # Creating the Launcher
 touch /usr/share/applications/sublime.desktop &&
