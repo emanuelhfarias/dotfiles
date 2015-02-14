@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_size": 12.0,
+	"font_face": "Droid Sans Mono",
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -12,6 +13,7 @@
 	],
 	"show_full_path": true,
 	"tab_size": 2,
+	"theme": "Devastate.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
