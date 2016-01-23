@@ -1,4 +1,8 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"ChangeQuotes",
@@ -6,7 +10,6 @@
 		"GitGutter",
 		"Package Control",
 		"RailsCasts Colour Scheme",
-		"SCSS",
 		"Theme - Soda"
 	]
 }
