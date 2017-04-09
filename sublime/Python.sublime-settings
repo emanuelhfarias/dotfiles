@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the Python syntax
+{
+  "color_scheme": "Packages/1337 Color Scheme/1337.tmTheme",
+  "font_face": "Source Code Pro",
+  "font_size": 11
+}
