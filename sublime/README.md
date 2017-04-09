@@ -22,3 +22,10 @@ Reload Linux system fonts:
 ```
 $ sudo fc-cache -f -v
 ```
+
+## Fiding Color Schemes ##
+More color schemes can be found at:
+* http://tmtheme-editor.herokuapp.com
+* http://colorsublime.com/?q=tomorrow
+* https://github.com/willsoto/material-color-scheme
+* https://packagecontrol.io/packages/Today%20Color%20Scheme
