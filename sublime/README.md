@@ -23,6 +23,10 @@ Reload Linux system fonts:
 $ sudo fc-cache -f -v
 ```
 
+More awesome fonts can be found at:
+* https://github.com/showcases/fonts
+* http://wesbos.com/programming-fonts/
+
 ## Fiding Color Schemes ##
 More color schemes can be found at:
 * http://tmtheme-editor.herokuapp.com
