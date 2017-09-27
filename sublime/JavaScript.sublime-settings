@@ -1,6 +1,0 @@
-// These settings override both User and Default settings for the JavaScript syntax
-{
-  "color_scheme": "Packages/User/Subway- Barcelona.tmTheme",
-  "font_face": "Source Code Pro",
-  "font_size": 11
-}
