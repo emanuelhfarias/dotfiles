@@ -1,0 +1,31 @@
+# Examples of tmuxinator configs
+#   https://github.com/tmuxinator/tmuxinator/tree/master/spec/fixtures
+#   https://github.com/tmuxinator/tmuxinator/blob/master/spec/fixtures/sample.yml
+
+name: proj
+root: /home/user/proj 
+
+windows:
+  - web:
+      layout: aac9,213x58,0,0{129x58,0,0,0,83x58,130,0[83x29,130,0,3,83x28,130,30,5]} 
+      panes:
+        - proj:
+            - cd web 
+            - vi app.py
+        - proj-docker:
+            - cd web
+            - docker-compose up
+        - console:
+            - cd web 
+  - api:
+      layout: aac9,213x58,0,0{129x58,0,0,0,83x58,130,0[83x29,130,0,3,83x28,130,30,5]}
+      panes:
+        - api-proj:
+            - cd api 
+            - vi src/application.py
+        - api-docker:
+            - cd api 
+            - docker-compose run --service-ports flask
+        - console:
+            - cd api
+
