@@ -40,6 +40,9 @@ set incsearch
 highlight ColorColumn ctermbg=gray
 set colorcolumn=80
 
+" add relative numbers
+:set relativenumber
+
 " tabs with line number and filename only
 fu! MyTabLabel(n)
 let buflist = tabpagebuflist(a:n)
