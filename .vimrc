@@ -4,7 +4,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'ryym/vim-riot'
 Plug 'dracula/vim'
 Plug 'airblade/vim-gitgutter'
-
+Plug 'nelstrom/vim-visual-star-search'
 " TEST Plug 'vim-scripts/FuzzyFinder'
 call plug#end()
 
