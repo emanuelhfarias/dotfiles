@@ -40,8 +40,6 @@ set expandtab
 map <C-n> :NERDTreeToggle<CR>
 
 set list
-let g:indentLine_leadingSpaceChar = '.'
-
-
-
-
+let g:indentLine_char = '┊'
+let g:indentLine_leadingSpaceChar = '·'
+let g:indentLine_leadingSpaceEnabled = 1
