@@ -10,8 +10,7 @@ call plug#end()
 
 set mouse=""
 
-set number
-set relativenumber
+set number relativenumber
 
 syntax on
 color dracula
@@ -29,9 +28,7 @@ set incsearch
 
 " TABS & Spaces
 filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
-set expandtab
+set tabstop=2 shiftwidth=2 expandtab
 
 " NERDTree Configs
 map <C-n> :NERDTreeToggle<CR>
