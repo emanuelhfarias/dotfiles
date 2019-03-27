@@ -1,11 +1,16 @@
 call plug#begin('~/.vim/plugged')
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'dracula/vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'yggdroot/indentline'
-" TEST Plug 'vim-scripts/FuzzyFinder'
+
+" languages syntax
+Plug 'leafgarland/typescript-vim'
+
+" colorschemes
+Plug 'jpo/vim-railscasts-theme'
+Plug 'dracula/vim'
 call plug#end()
 
 set mouse=""
@@ -13,7 +18,7 @@ set mouse=""
 set number relativenumber
 
 syntax on
-color dracula
+color railscasts
 
 " add 80 columns mark
 highlight ColorColumn ctermbg=gray
