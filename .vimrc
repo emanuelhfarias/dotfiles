@@ -27,6 +27,7 @@ set colorcolumn=80
 " Custom Defined Commands
 command! Path let @+ = expand("%:p")
 command! File let @+ = expand("#")
+command! Json %!python -m json.tool
 
 " highlight while searching
 set incsearch
