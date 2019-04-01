@@ -26,7 +26,9 @@ alias mux="tmuxinator"
 # tmux - set 10ms for key sequences
 export KEYTIMEOUT=1
 
+# zsh history size
 export HISTSIZE=10000
 export SAVEHIST=10000
 
+# load Xresources
 xrdb ~/.Xresources
