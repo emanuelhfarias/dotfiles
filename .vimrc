@@ -4,6 +4,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'yggdroot/indentline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " languages syntax
 Plug 'leafgarland/typescript-vim'
@@ -43,3 +45,5 @@ set list
 let g:indentLine_char = '┊'
 let g:indentLine_leadingSpaceChar = '·'
 let g:indentLine_leadingSpaceEnabled = 1
+
+let g:airline_theme='deus'
