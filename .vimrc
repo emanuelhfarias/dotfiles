@@ -23,8 +23,8 @@ syntax on
 color railscasts
 
 " add 80 columns mark
-highlight ColorColumn ctermbg=gray
-set colorcolumn=80
+let &colorcolumn="80,".join(range(120,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
 " Custom Defined Commands
 command! Path let @+ = expand("%:p")
