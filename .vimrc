@@ -6,6 +6,7 @@ Plug 'nelstrom/vim-visual-star-search'
 Plug 'yggdroot/indentline'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-surround'
 
 " languages syntax
 Plug 'leafgarland/typescript-vim'
