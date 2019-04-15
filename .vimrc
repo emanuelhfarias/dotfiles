@@ -7,6 +7,7 @@ Plug 'yggdroot/indentline'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
+Plug 'terryma/vim-multiple-cursors'
 
 " languages syntax
 Plug 'leafgarland/typescript-vim'
