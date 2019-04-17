@@ -8,6 +8,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'ntpeters/vim-better-whitespace'
 
 " languages syntax
 Plug 'leafgarland/typescript-vim'
@@ -47,6 +48,8 @@ map <C-n> :NERDTreeToggle<CR>
 set list
 let g:indentLine_char = '┊'
 let g:indentLine_leadingSpaceChar = '·'
-let g:indentLine_leadingSpaceEnabled = 1
+let g:indentLine_leadingSpaceEnabled = 0
+
+let g:better_whitespace_enabled=1
 
 let g:airline_theme='deus'
