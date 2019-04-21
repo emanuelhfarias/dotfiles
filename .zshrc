@@ -32,3 +32,6 @@ export SAVEHIST=10000
 
 # load Xresources
 xrdb ~/.Xresources
+
+# vi mode
+bindkey -v
