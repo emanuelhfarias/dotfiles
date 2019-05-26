@@ -53,3 +53,5 @@ let g:indentLine_leadingSpaceEnabled = 0
 let g:better_whitespace_enabled=1
 
 let g:airline_theme='deus'
+
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|venv)|(\.(swp|git|svn))$'
