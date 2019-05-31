@@ -33,7 +33,7 @@ highlight ColorColumn ctermbg=235 guibg=#2c2d27
 command! Path let @+ = expand("%:p")
 command! File let @+ = expand("#")
 command! Json %!python -m json.tool
-command! Tags !ctags -R .
+command! Tags !ctags -R . --exclude=.git --exclude=venv --exclude=node_modules
 
 " highlight while searching
 set incsearch
