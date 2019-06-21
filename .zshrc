@@ -24,7 +24,7 @@ export EDITOR='vim'
 alias mux="tmuxinator"
 
 # tmux - set 10ms for key sequences
-export KEYTIMEOUT=1
+export KEYTIMEOUT=10
 
 # zsh history size
 export HISTSIZE=10000
