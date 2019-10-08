@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'nelstrom/vim-visual-star-search'
@@ -10,6 +9,7 @@ Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " languages syntax
 Plug 'leafgarland/typescript-vim'
@@ -44,7 +44,11 @@ filetype plugin indent on
 set tabstop=2 shiftwidth=2 expandtab
 
 " NERDTree Configs
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
+
+:noremap <c-p> :Files<cr>
+:noremap <c-b> :Buffers<cr>
+
 
 set list
 let g:indentLine_char = '┊'
