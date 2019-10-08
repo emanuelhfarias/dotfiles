@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-Plug 'scrooloose/nerdtree'
+"Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'yggdroot/indentline'
