@@ -35,3 +35,11 @@ xrdb ~/.Xresources
 
 # vi mode
 bindkey -v
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# determines search program for fzf
+if type ag &> /dev/null; then
+    export FZF_DEFAULT_COMMAND='ag -p ~/.gitignore -g ""'
+fi
+
