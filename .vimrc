@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-"Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'yggdroot/indentline'
@@ -42,9 +41,6 @@ set incsearch
 " TABS & Spaces
 filetype plugin indent on
 set tabstop=2 shiftwidth=2 expandtab
-
-" NERDTree Configs
-"map <C-n> :NERDTreeToggle<CR>
 
 :noremap <c-p> :Files<cr>
 :noremap <c-b> :Buffers<cr>
