@@ -15,6 +15,7 @@ Plug 'scrooloose/syntastic'
 Plug 'leafgarland/typescript-vim'
 
 " colorschemes
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'jpo/vim-railscasts-theme'
 Plug 'dracula/vim'
 call plug#end()
@@ -43,7 +44,9 @@ command! Tags !ctags -R . --exclude=.git --exclude=venv --exclude=node_modules -
 
 
 " ============================== Plugins Settings =============================
-color railscasts
+set background=dark
+colorscheme PaperColor
+"color railscasts
 
 let g:airline_theme='deus'
 
