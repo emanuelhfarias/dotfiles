@@ -9,8 +9,6 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
-Plug 'scrooloose/syntastic'
-
 " languages syntax
 Plug 'leafgarland/typescript-vim'
 
@@ -64,12 +62,4 @@ let g:better_whitespace_enabled=1
 " ctrp-p plugin Settings
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|venv)|(\.(swp|git|svn))$'
 
-" Syntastic plugin Settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
 
