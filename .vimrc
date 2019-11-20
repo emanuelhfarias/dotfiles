@@ -12,6 +12,8 @@ Plug 'junegunn/fzf.vim'
 " languages syntax
 Plug 'leafgarland/typescript-vim'
 
+Plug 'mileszs/ack.vim'
+
 " colorschemes
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'jpo/vim-railscasts-theme'
@@ -62,4 +64,8 @@ let g:better_whitespace_enabled=1
 " ctrp-p plugin Settings
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|venv)|(\.(swp|git|svn))$'
 
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep --smart-case'
+  cnoreabbrev ag Ag
+endif
 
