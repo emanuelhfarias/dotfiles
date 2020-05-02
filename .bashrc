@@ -4,3 +4,5 @@ bind '"\e[B": history-substring-search-forward'
 bind 'set completion-ignore-case on'
 bind 'set colored-completion-prefix on'
 bind 'set show-all-if-ambiguous on'
+
+shopt -s autocd
