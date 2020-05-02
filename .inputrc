@@ -1,2 +1,6 @@
 "\e[A": history-substring-search-backward
 "\e[B": history-substring-search-forward
+
+set completion-ignore-case on
+set colored-completion-prefix on
+set show-all-if-ambiguous on
